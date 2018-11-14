@@ -11,7 +11,7 @@ public class UserDto {
   String lastName;
   LocalDate dob;
   String nic;
-  List<PhoneNumber> phoneNumber;
+  List<String> phoneNumber;
 
   public Integer getId() {
     return id;
@@ -53,13 +53,15 @@ public class UserDto {
     this.nic = nic;
   }
 
-  public List<PhoneNumber> getPhoneNumber() {
-    return phoneNumber;
-  }
+public List<String> getPhoneNumber() {
+	return phoneNumber;
+}
 
-  public void setPhoneNumber(List<PhoneNumber> phoneNumber) {
-    this.phoneNumber = phoneNumber;
-  }
+public void setPhoneNumber(List<String> phoneNumber) {
+	this.phoneNumber = phoneNumber;
+}
+
+ 
 
 
 
